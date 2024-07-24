@@ -6,7 +6,7 @@ export default function InscriptionPage() {
     <>
       <Navbar />
       <main style={{ padding: '2rem' }}>
-        <h1>Faites des beaux formulaires simples et amusants</h1>
+        <h1>Bienvenue dans la page d'inscription</h1>
         <SignUpForm />
       </main>
     </>
