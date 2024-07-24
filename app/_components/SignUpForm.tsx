@@ -37,6 +37,17 @@ const SignupForm = () => {
           onChange={handleChange}
           required
         />
+        </div>
+        <div className={styles.formGroup}>
+        <label htmlFor="name">Prénom</label>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
       </div>
       <div className={styles.formGroup}>
         <label htmlFor="email">Email</label>
